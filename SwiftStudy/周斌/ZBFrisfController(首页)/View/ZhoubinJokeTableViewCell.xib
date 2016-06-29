@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="208" id="KGk-i7-Jjw" customClass="ZhoubinJokeTableViewCell" customModule="SwiftStudy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="208"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="398" height="207"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="妞 , 给 大 爷 笑 一 个 :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJU-OZ-uxE">
+                        <rect key="frame" x="8" y="8" width="164" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="fp8-yz-esG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="文科女生非常喜欢一理科男生,一天,文科女生想是时候该表白了。文科女生给理科男生发短信:“青青子佩、悠悠我思、纵我不往、子宁不来。”,理科男回:“看不懂,请说中文……” 理科女生非常生气地回了短信:“你妹呀,老娘不去找你,你他妈的就不知道来找老娘……”" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxH-wc-x7F">
+                        <rect key="frame" x="24" y="36" width="351" height="115"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="351" id="v1n-ye-tVP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bxH-wc-x7F" firstAttribute="top" secondItem="tJU-OZ-uxE" secondAttribute="bottom" constant="8" id="0sC-i3-BcA"/>
+                    <constraint firstItem="bxH-wc-x7F" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="24" id="995-vK-9HV"/>
+                    <constraint firstItem="tJU-OZ-uxE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Sc0-gj-KAP"/>
+                    <constraint firstItem="tJU-OZ-uxE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="gnM-8P-iH5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="384" y="464"/>
+        </tableViewCell>
+    </objects>
+</document>

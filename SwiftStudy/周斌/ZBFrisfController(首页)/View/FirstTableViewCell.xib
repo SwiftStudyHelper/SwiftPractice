@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="107" id="KGk-i7-Jjw" customClass="FirstTableViewCell" customModule="SwiftStudy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="338" height="107"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="338" height="106"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="health.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zHj-Rl-7cJ">
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="106"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="健 康 源 于 生 活" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWe-wR-DPV">
+                        <rect key="frame" x="93" y="78" width="152" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="eYd-Wp-IYC"/>
+                            <constraint firstAttribute="width" constant="152" id="zWQ-Fn-Dc9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="zHj-Rl-7cJ" secondAttribute="bottom" id="37h-jK-T2R"/>
+                    <constraint firstItem="zHj-Rl-7cJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ATL-aY-7WZ"/>
+                    <constraint firstAttribute="bottom" secondItem="GWe-wR-DPV" secondAttribute="bottom" constant="8" id="Gl1-Zg-U2l"/>
+                    <constraint firstAttribute="trailing" secondItem="zHj-Rl-7cJ" secondAttribute="trailing" id="P3v-dg-7Gs"/>
+                    <constraint firstItem="GWe-wR-DPV" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="kUF-Bo-7q3"/>
+                    <constraint firstItem="zHj-Rl-7cJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="njF-Va-i2Q"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="414" y="509.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="health.jpg" width="307" height="150"/>
+    </resources>
+</document>
