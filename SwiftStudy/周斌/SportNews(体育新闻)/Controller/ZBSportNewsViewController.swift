@@ -121,11 +121,7 @@ class ZBSportNewsViewController: UIViewController {
     
 
     // 底部刷新
-    func footerRefresh(){
-        
-        if num > 10 {
 
-    // 底部加载
     func footerRefresh(){
         
         
@@ -152,9 +148,6 @@ class ZBSportNewsViewController: UIViewController {
 
     }
 
-
-      }
-    }
 }
 extension ZBSportNewsViewController:UITableViewDelegate,UITableViewDataSource
 {
